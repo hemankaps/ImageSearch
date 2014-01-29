@@ -86,7 +86,6 @@ public class GridActivity extends Activity {
 	public void searchResults(int page){
 		AsyncHttpClient client = new AsyncHttpClient();
 		String url = "https://ajax.googleapis.com/ajax/services/search/images?v=1.0&rsz=8&start=" + page + "&q=" + Uri.encode(query) + "&imgcolor=" + color.toLowerCase() + "&imgsz=" + size.toLowerCase() + "&imgtype=" + imgType.toLowerCase() + "&as_sitesearch=" + site.toLowerCase();
-		System.out.println("URL :: " + url);
 		client.get(url, new AsyncHttpResponseHandler() {
 		        @Override
 		        public void onSuccess(String response) {
