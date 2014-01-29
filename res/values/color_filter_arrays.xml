@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_filter_arrays">
+        <item>BLACK</item>
+        <item>BLUE</item>
+        <item>BROWN</item>
+        <item>GRAY</item>
+        <item>GREEN</item>
+        <item>RED</item>
+    </string-array>
+</resources>
